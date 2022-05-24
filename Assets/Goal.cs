@@ -6,6 +6,7 @@ public class Goal : MonoBehaviour
 {
     public GameObject clearText;
     public GameObject nextButton;
+    public AudioSource audioSource;
 
 
 
@@ -15,5 +16,6 @@ public class Goal : MonoBehaviour
 
         clearText.SetActive(true);
         nextButton.SetActive(true);
+        audioSource.Play();
     }
 }
